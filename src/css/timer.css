@@ -1,0 +1,49 @@
+body {
+  text-align: center;
+  background-image: linear-gradient(rgba(252, 252, 252, 0.5), rgba(163, 199, 240, 0.5));
+}
+
+#date-selector {
+  margin-bottom: 16px;
+}
+
+button,
+input {
+  border-color: rgb(83, 82, 85);
+}
+.timer {
+  padding: 0 16px;
+  background-color: #f0f2f1;
+  display: none;
+  padding-top: 20px;
+  justify-content: center;
+}
+
+.field,
+.label {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.value > p {
+  margin: 1px;
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  background-color: rgb(83, 82, 85);
+  color: #fff;
+  display: grid;
+  align-items: center;
+}
+
+.value {
+  font-size: 40px;
+}
+
+span {
+  display: inline-flex;
+  color: rgb(83, 82, 85);
+  font-weight: 500;
+}
